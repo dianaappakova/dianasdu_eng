@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office"
+          xmlns:x="urn:schemas-microsoft-com:excel"
+          xmlns:ss="urn:schemas-microsoft-com:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+      <Author>Global Health Observatory</Author>
+      <Created>2018-10-16T12:18:46.616+02:00</Created>
+      <Company>World Health Organization</Company>
+      <Version>1.0</Version>
+   </DocumentProperties>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Top"/>
+         <Borders/>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Data" ss:Name="Data">
+         <Alignment ss:Vertical="Top"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="10"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Header" ss:Name="Header">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="HeaderHyperlink" ss:Name="HeaderHyperlink">
+         <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+         </Borders>
+         <Font ss:Size="11" ss:Bold="1" ss:Color="#0000FF" ss:Underline="Single"/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="Bold" ss:Name="Bold">
+         <Alignment ss:Vertical="Top"/>
+         <Font ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="Hyperlink" ss:Name="Hyperlink">
+         <Font ss:Color="#0000FF" ss:Underline="Single"/>
+      </Style>
+      <Style ss:ID="WordWrap" ss:Name="WordWrap">
+         <Alignment ss:WrapText="1"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Data">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="Header" ss:MergeDown="1">
+               <Data ss:Type="String"> </Data>
+            </Cell>
+            <Cell ss:Index="2" ss:MergeAcross="13" ss:StyleID="Header">
+               <Data ss:Type="String">Slovakia</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:Index="2" ss:StyleID="Header">
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell ss:StyleID="Header">
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Antiretroviral therapy coverage among people with HIV infection eligible for ART according to 2010 guidelines (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Antiretroviral therapy coverage among people with advanced HIV infection (%), WHO 2006 guidelines</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">78 [56- &gt;95]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Cellular subscribers (per 100 population)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">112</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">109</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">108</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Civil registration coverage of births (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100</Data>
+               <Comment>
+                  <Data>6 UNSD . UNICEF global databases, 2016, based on DHS, MICS, other national household surveys, censuses and vital registration systems.&lt;p&gt;68 Data refer to the most recent year available . Changes in the definition of birth registration were made from the second and third rounds of MICS (MICS2 and MICS3) to the fourth round (MICS4). In order to allow for comparability with later rounds, data from MICS2 and MICS3 on birth registration were recalculated according to the MICS4 indicator definition. Therefore, the recalculated data presented here may differ from estimates included in MICS2 and MICS3 national reports. Estimates of 100% were assumed given that civil registration systems in these countries are complete and all vital events (including births) are registered. Source: United Nations, Department of Economic and Social Affairs, Statistics Division, Population and Vital Statistics Report, Series A Vol. LXVII, New York, 2015.</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&gt;90</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Civil registration coverage of cause-of-death (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">100</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Deaths due to HIV/AIDS (per 100 000 population)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0</Data>
+               <Comment>
+                  <Data>Mortality Data. Geneva, World Health Organization, 2014 (http://www.who.int/gho/mortality_burden_disease/en/). </Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Gross national income per capita (PPP int. $)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24740</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">24570</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">23340</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22700</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">22840</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">20280</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">17890</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15760</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14080</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12950</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12920</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Ill-defined causes in cause-of-death registration (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7</Data>
+               <Comment>
+                  <Data>Source: GHE2016. Quality category: high.</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Most recent census (year)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Number of nursing and midwifery personnel</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1769</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Nursing and midwifery personnel density (per 10 000 population)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.28</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Prevalence of HIV among adults aged 15 to 49 (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;0.1 [&lt;0.1–&lt;0.1]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;0.1 [&lt;0.1–&lt;0.1]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Tuberculosis treatment coverage</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">87 [75-100]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Number of under-five deaths (thousands)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Infant mortality rate (probability of dying between birth and age 1 per 1000 live births)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">5.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Number of infant deaths (thousands)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Number of neonatal deaths (thousands)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">&lt;1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Neonatal mortality rate (per 1000 live births)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.1</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">3.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.3</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.6</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Under-five mortality rate (probability of dying by age 5 per 1000 live births)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.6</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.4</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">7.9</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.5</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.8</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Leprosy - number of reported cases</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">No data</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Deaths due to tuberculosis among HIV-negative people (per 100 000 population)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.64 [0.63-0.65]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.64 [0.63-0.65]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.38 [0.37-0.38]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.32 [0.32-0.33]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.49 [0.48-0.49]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.66 [0.65-0.66]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.79 [0.78-0.8]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.79 [0.78-0.79]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.66 [0.65-0.66]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.88 [0.88-0.89]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.88 [0.87-0.89]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">0.98 [0.97-0.98]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1.2 [1.2-1.2]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">1.2 [1.2-1.2]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Incidence of tuberculosis (per 100 000 population per year)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.5 [5.6-7.5]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.8 [5.8-7.8]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.4 [7.2-9.7]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">6.8 [5.8-7.9]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8 [6.9-9.3]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">8.7 [7.4-10]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">9.6 [8.3-11]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">12 [11-14]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">13 [11-15]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 [12-17]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">15 [13-17]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">14 [12-16]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 [18-24]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">21 [18-24]</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Total density per million population: Radiotherapy units</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.77</Data>
+               <Comment>
+                  <Data>Data from &lt;a href="http://www-naweb.iaea.org/nahu/dirac/query3.asp" target="_blank"&gt;DIRA IAEA radiotherapy database&lt;/a&gt;, accessed on February 2014</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">4.76</Data>
+               <Comment>
+                  <Data>from the DIRA IAEA radiotherapy database (data available online at: http://www-naweb.iaea.org/nahu/dirac/query3.asp)</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Maternal mortality ratio (per 100 000 live births)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"> 6 [ 4 -  7]</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Births by caesarean section (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">30.3</Data>
+               <Comment>
+                  <Data>Korbel M, Kristufkova A, Dugatova M, Danis J, Nemethova B, Kascak P et al. Ceska Gynekol; 2017. Korbel M, Kristufkova A, Dugatova M, Danis J, Nemethova B, Kascak P et al. Analýza materskej morbidity a mortality v Slovenskej republike v rokoch 2007–2012. [Analysis of maternal morbidity and mortality in Slovak Republic in the years 2007-2012]. Ceska Gynekol. 2017;82(1):6-15 (in Slovak).</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Population median age (years)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">38.2</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">37.87</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Population living in urban areas (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">54.7</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Hospital beds (per 10 000 population)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">58</Data>
+               <Comment>
+                  <Data>Eurostat</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">58</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">59</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">61</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">64</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">65</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">66</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">68</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">67</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">68</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">69</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">72</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">76</Data>
+               <Comment>
+                  <Data>EURO HlthRes-DB 14Sep2016</Data>
+               </Comment>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Births attended by skilled health personnel (%)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">98.5</Data>
+               <Comment>
+                  <Data>SAB definition: Skilled health personnel &lt;br&gt;Reference: TransMonEE, UNICEF Europe and Central Asia Regional Office; 2016. &lt;br&gt;Source: Transformative Monitoring for Enhanced Equity (TransMonEE) 2016 Database [online database]. Geneva: UNICEF Europe and Central Asia Regional Office; 2016 (www.transmonee.org, accessed 17 October 2016). &lt;br&gt;</Data>
+               </Comment>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="Header" ss:Index="1">
+               <Data ss:Type="String">Psychiatrists working in mental health sector (per 100,000)</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String">11.48</Data>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="Data">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>
